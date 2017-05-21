@@ -17,6 +17,5 @@ def build_graph():
         except Exception as e:
             print(e)
 
-
-build_graph()
+# build_graph()
 # print(graph.run("MATCH (a:Person) RETURN a.id, a.firstName, a.surname LIMIT 10").data())
